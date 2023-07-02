@@ -34,9 +34,9 @@ def password_modifier(password):
 def main():
   """Prompts the user for a password and then prints the modified password."""
 
-  
+  password = input("")
   modified_password = password_modifier(password)
-  print({modified_password})
+  print(f"{modified_password}")
 
 
 if __name__ == "__main__":
